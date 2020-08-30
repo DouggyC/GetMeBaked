@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Moontime";
+  src: url(../src/font/MoonTime-Regular.ttf) format("truetype"),
+    url(../src/font/MoonTime-Regular.otf) format("opentype");
+}
+
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+body {
+  overflow-x: hidden !important;
+}
+
+/*  */
+
+.bdr {
+  border: 1px solid red;
+}
+
+
+
+#footer-title {
+  font-family: 'Moontime';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#home-title {
+  font-family: "Moontime", sans-serif;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
